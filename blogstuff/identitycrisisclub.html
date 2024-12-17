@@ -95,7 +95,7 @@ a:active {
                 
                 <p>This is what's running in the background:</p>
                 
-                <img src="identitycrisisclub/boysmell.png"/>
+                <img src="identitycrisisclub/boysmell.jpg"/>
                 
                 <p>Looks simple enough, right?
                 <br>"label blogclub" is what the game engine (renpy) will jump to when you click "New Game". You can give it any name you want.
@@ -103,20 +103,20 @@ a:active {
                 
                 <p>"scene bg residential_day" is which background you want to use. There are quite a lot of them.</p>
                 
-                <img src="identitycrisisclub/backgrounds.png"/>
+                <img src="identitycrisisclub/backgrounds.jpg"/>
                 
                 <p>The way you add them in the engine is by defining them in some other special "definitions" file, like this:</p>
                 
-                <img src="identitycrisisclub/backgrounds_code.png"/>
+                <img src="identitycrisisclub/backgrounds_code.jpg"/>
                 
                 <p>It's not that bad when there's like 3 backgrounds, but when you start to get fancy and use different backgrounds for each scene, and use special code to make animated backgrounds,
                 <br>and use different alpha layers to simulate clouds moving, and animate birds, and add some funny lens flare effects, and use soft light blending modes, and and and</p>
                 
-                <img src="identitycrisisclub/sky_mess.png"/>
+                <img src="identitycrisisclub/sky_mess.jpg"/>
                 
                 <p>THE FINAL RESULT!!!</p>
                 
-                <img src="identitycrisisclub/birds_error.png"/>
+                <img src="identitycrisisclub/birds_error.jpg"/>
                 
                 <p>THE FINAL RESULT (FOR REAL NOW!!")!)!!</p>
                 
@@ -128,12 +128,12 @@ a:active {
                 <p>AND IT DOESNT EVEN LOOK THAT GOOD
                 <br>oh yeah I almost forog.</p>
                 
-                <img src="identitycrisisclub/boysmell_2.png"/>
+                <img src="identitycrisisclub/boysmell_2.jpg"/>
                 
                 <p>"play music" is basically what background music you want to play, like "t2" which is "Ohayou, Sayori!"
                 <br>There's quite a plenty amount, and you can still add more if you want.</p>
                 
-                <img src="identitycrisisclub/songs.png"/>
+                <img src="identitycrisisclub/songs.jpg"/>
                 
                 <p>"play sound" is the same thing, but with sound effects or background ambience.
                 <br>I add most of those myself since the ones already in the game are pretty limited.</p>
@@ -143,24 +143,24 @@ a:active {
                 <br>"show sayori" that's simple. Literally just show the sayori sprite. But which one??
                 <br>Well for that we gotta look at <a href="https://docs.google.com/document/d/1LCS_5lDERM5VardjJ5IDqdXp9zMVL-irespq11mJr7g/edit?tab=t.0">the fucking spreadsheet.</a></p>
                 
-                <img src="identitycrisisclub/spreadsheet_1.png"/>
+                <img src="identitycrisisclub/spreadsheet_1.jpg"/>
                 
                 <p>If you don't understand what's going on in this mess, I understand.
                 <br>I may have had a stroke or two trying to decipher what all of this means, but it's actually quite simple.
                 <br>All the sprites in DDLC are cut into different poses for the left and right arms.</p>
 
-                <img src="identitycrisisclub/left_right_poses.png"/>
+                <img src="identitycrisisclub/left_right_poses.jpg"/>
                 
                 <p>Let's say I want Sayori to raise her left arm, but leave her right arm down (from our perspective).
                 <br>We go to the spreadsheet and find that pose's number, which would be pose 3.
                 <br>Ok now we have to give her a face. DDLC cuts the face sprites into a billion files, like this:</p>
                 
-                <img src="identitycrisisclub/faces.png"/>
+                <img src="identitycrisisclub/faces.jpg"/>
                 
                 <p>The images look tiny as shit and going through each image one by one is a fucking nightmare,
                 <br>so let's take another look at the spreadsheet.</p>
                 
-                <img src="identitycrisisclub/sayori_faces.png"/>
+                <img src="identitycrisisclub/sayori_faces.jpg"/>
                 
                 <p>Ok that's very convenient. Let's say we want sayori to make a happy face. That would be the face sprite "r".
                 <br>So if we mix the body pose and face sprite we would end up with "show sayori 3r", but hold on we're not done yet.
@@ -173,12 +173,12 @@ a:active {
                 <br>Yea yea yea you get the thing, anyway let's apply all we've learned into a single line of code.
                 <br>That would be "show sayori 3r at t11" which looks like this:</p>
                 
-                <img src="identitycrisisclub/sayori_3r.png"/>
+                <img src="identitycrisisclub/sayori_3r.jpg"/>
                 
                 <p>Happy! :D
                 <br>But wait, where's the dialogue? Well to make dialogue it's actually pretty simple.</p>
                 
-                <img src="identitycrisisclub/boysmell_3.png"/>
+                <img src="identitycrisisclub/boysmell_3.jpg"/>
                 
                 <p>The letter "s" is the initial of the character's name. Sayori would be s, Monika would be m, and so on. The main character is "mc" which makes sense.
                 <br>The actual dialogue is written inside the "air comma" things that I forgot how they're called.
