@@ -1,0 +1,335 @@
+<html>
+	<head>
+		<link rel="icon" href="pics/what.png">
+		<title>Identity Crisis Club</title>
+			<style>
+				body {background-color:black; padding: 25px 5%}
+				h1 {text-align: center; color:white;}
+				h2 {text-align: center; color:white;}
+				h3 {text-align: center; color:white;}
+				h4 {text-align: center; color:white;}
+				h5 {text-align: center; color:white;}
+				p {font-family: helvetica; font-size: 20px; text-shadow: #000000 0px 0px 5px; text-align: center; color:white;}
+				div {text-align: center; color:white;}
+				img {display: block; margin-left: auto; margin-right: auto; max-width: 90%; max-height: 90%; box-shadow: 0px 0px 20px 10px black;}
+                video {display: block; margin-left: auto; margin-right: auto; max-width: 90%; max-height: 90%; box-shadow: 0px 0px 20px 10px black;}
+				
+				.rantingbg {background-image:url("../immigrant/immigrantbg.gif"); background-size: 100% 100%; box-shadow: inset 0px 0px 40px 40px black;}
+				.animated_rainbow_3 {
+    color: #F00;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 42px;
+    font-family: Arial Black, Gadget, sans-serif;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #FF0000;
+    -webkit-animation: animatedBackground_c 2s infinite alternate;
+}
+
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@keyframes animatedBackground_c {
+    0% {-webkit-text-stroke-color: #ff8b00}
+    10% {-webkit-text-stroke-color: #e8ff00}
+    20% {-webkit-text-stroke-color: #5dff00}
+    30% {-webkit-text-stroke-color: #00ff2e}
+    40% {-webkit-text-stroke-color: #00ffb9}
+    50% {-webkit-text-stroke-color: #00b9ff}
+    60% {-webkit-text-stroke-color: #002eff}
+    70% {-webkit-text-stroke-color: #5d00ff}
+    80% {-webkit-text-stroke-color: #e800ff}
+    90% {-webkit-text-stroke-color: #ff008b}
+    100% {-webkit-text-stroke-color: #ff0000}
+}
+			</style>
+	</head>
+<body>
+
+	<p><a href="../blog">I don't like this place, take me home</a></p>
+		<div class="rantingbg">
+			<div class="animated_rainbow_3">[Dec 17, 2024]<br>Making a DDLC mod makes me want to kill myself</div>
+				<p>Where do I even start bruh.
+				<br>DOKI DOKI LITERATURE CLUB MODS. You can't escape them, they're everywhere
+				<br>Shitpost mods, serious mods, sad mods... Hell, skibidi toilet mods (yes they are a thing theyre real, no dont look it up).</p>
+				
+				<p>If you don't know what Doki Doki Literature Club is, then you're missing out on some serious shit.
+                <br>In a nutshell, it's a silly ass visual novel where your childhood friend nags you about "joining a club".
+                <br>She's the vice-president of the Literature Club so you decide to check it out.
+                <br>Turns out, it's a club of women with generic anime tropes, which the main protagonists finds funny.
+                <br>These girls are like 'oh yeah lets write some poems' so one of the core features of the game is literally... writing poems.
+                <br>Depending on how you write your poems, you'll hang out with the girl that likes your poem the most. Be it cute, bittersweet, or straight up unreadable.
+                <br>Now that sounds boring as fuck cause who the fuck is interested in literature... Except for one thing.
+                <br>The game is not like your average visual novel where you date one of the girls and that's it, actually I don't even know if I can describe the fucking thing without spoiling it.
+                <br><a href="https://ddlc.moe/">>PLAY IT FOR YOURSELF GOD DAMN THE FUCKING THING IS FREE and relatively short you can complete it in like 3 or 4 hours.<</a>
+                <br>I'm not kidding when I say it's not like any other visual novel you've played (or not played) before TREUST ME !"!!</p>
+				
+                <img src="identitycrisisclub/thisclub.png"/>
+                
+                <p>Did you play it? No? Ok I don't care.
+                <br>Modding this fucking thing is simple, but incredibly annoying.
+                <br>Let's say we want to make a scene where Sayori (best girl) tells you to touch grass, like this:</p>
+                
+                <img src="identitycrisisclub/screenshot0104.png"/>
+                
+                <p>This is what's running in the background:</p>
+                
+                <img src="identitycrisisclub/boysmell.png"/>
+                
+                <p>Looks simple enough, right?
+                <br>"label blogclub" is what the game engine (renpy) will jump to when you click "New Game". You can give it any name you want.
+                <br>You can call it "label the_funny_sexening" as long as you don't forget to specify it in a special "scripts" file, which is what the engine uses to switch between chapters.</p>
+                
+                <p>"scene bg residential_day" is which background you want to use. There are quite a lot of them.</p>
+                
+                <img src="identitycrisisclub/backgrounds.png"/>
+                
+                <p>The way you add them in the engine is by defining them in some other special "definitions" file, like this:</p>
+                
+                <img src="identitycrisisclub/backgrounds_code.png"/>
+                
+                <p>It's not that bad when there's like 3 backgrounds, but when you start to get fancy and use different backgrounds for each scene, and use special code to make animated backgrounds,
+                <br>and use different alpha layers to simulate clouds moving, and animate birds, and add some funny lens flare effects, and use soft light blending modes, and and and</p>
+                
+                <img src="identitycrisisclub/sky_mess.png"/>
+                
+                <p>THE FINAL RESULT!!!</p>
+                
+                <img src="identitycrisisclub/birds_error.png"/>
+                
+                <p>THE FINAL RESULT (FOR REAL NOW!!")!)!!</p>
+                
+                <video width="1280" height="720" controls>
+                    <source src="identitycrisisclub/shit_sky.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+                </video> 
+                
+                <p>AND IT DOESNT EVEN LOOK THAT GOOD
+                <br>oh yeah I almost forog.</p>
+                
+                <img src="identitycrisisclub/boysmell_2.png"/>
+                
+                <p>"play music" is basically what background music you want to play, like "t2" which is "Ohayou, Sayori!"
+                <br>There's quite a plenty amount, and you can still add more if you want.</p>
+                
+                <img src="identitycrisisclub/songs.png"/>
+                
+                <p>"play sound" is the same thing, but with sound effects or background ambience.
+                <br>I add most of those myself since the ones already in the game are pretty limited.</p>
+                
+                <p>Now, here's the <s>stupidly fucking annoying bitch ass</s> fun part!
+                <br>"show sayori 5c at t11" let's break this down into simple stuff.
+                <br>"show sayori" that's simple. Literally just show the sayori sprite. But which one??
+                <br>Well for that we gotta look at <a href="https://docs.google.com/document/d/1LCS_5lDERM5VardjJ5IDqdXp9zMVL-irespq11mJr7g/edit?tab=t.0">the fucking spreadsheet.</a></p>
+                
+                <img src="identitycrisisclub/spreadsheet_1.png"/>
+                
+                <p>If you don't understand what's going on in this mess, I understand.
+                <br>I may have had a stroke or two trying to decipher what all of this means, but it's actually quite simple.
+                <br>All the sprites in DDLC are cut into different poses for the left and right arms.</p>
+
+                <img src="identitycrisisclub/left_right_poses.png"/>
+                
+                <p>Let's say I want Sayori to raise her left arm, but leave her right arm down (from our perspective).
+                <br>We go to the spreadsheet and find that pose's number, which would be pose 3.
+                <br>Ok now we have to give her a face. DDLC cuts the face sprites into a billion files, like this:</p>
+                
+                <img src="identitycrisisclub/faces.png"/>
+                
+                <p>The images look tiny as shit and going through each image one by one is a fucking nightmare,
+                <br>so let's take another look at the spreadsheet.</p>
+                
+                <img src="identitycrisisclub/sayori_faces.png"/>
+                
+                <p>Ok that's very convenient. Let's say we want sayori to make a happy face. That would be the face sprite "r".
+                <br>So if we mix the body pose and face sprite we would end up with "show sayori 3r", but hold on we're not done yet.
+                <br>We also want to specify where we want to show the sprite. Do you want it in the middle? Or at the very left? Maybe a bit to the right?
+                <br>That's what the funny "11, 21, 32, 43" numbers mean. The first number is how many people there are on the screen, and the second one is in what order that character is.
+                <br>Let's say we want to show Sayori, then Monika, then Yuri in that same order. Sayori would be 31, Monika would be 32 and Yuri 33.
+                <br>The "Effect" thing is also pretty important. "t" is the default, which means the character will appear with a fade in,
+                <br>"l" means the character will appear by sliding from the left side of the screen, "r" is from the right side,
+                <br>"h" makes the character do a little jump, "f" will make the sprite's size a bit bigger to signal that they're speaking...
+                <br>Yea yea yea you get the thing, anyway let's apply all we've learned into a single line of code.
+                <br>That would be "show sayori 3r at t11" which looks like this:</p>
+                
+                <img src="identitycrisisclub/sayori_3r.png"/>
+                
+                <p>Happy! :D
+                <br>But wait, where's the dialogue? Well to make dialogue it's actually pretty simple.</p>
+                
+                <img src="identitycrisisclub/boysmell_3.png"/>
+                
+                <p>The letter "s" is the initial of the character's name. Sayori would be s, Monika would be m, and so on. The main character is "mc" which makes sense.
+                <br>The actual dialogue is written inside the "air comma" things that I forgot how they're called.
+                <br>The [player] thing is also quite simple, it's just a variable that pulls the name the player decided to input when creating a new file.
+                <br>In this case I named myself "Soundgadoobi". Don't ask why. <b>Don't ask why.</b></p>
+                
+                <img src="identitycrisisclub/screenshot0110.png"/>
+                
+                <p>Simple, right?
+                <br>WHICH MEANS NOW YOU CAN MAKE YOUR OWN FUNNY DDLC MOD!!! but no, not really.
+                <br>Forget everthing you've learned because all the different characters have their own set of special poses and definitions.
+                <br>Oh yeah and each character also has an alternative casual outfit which uses different sprites.
+                <br>Oh yeah and Natsuki is the worst of them all cause she has like 155 unique combinations its not even funny.
+                <br>Oh yeah and Yuri sometimes uses "LiveComposite" animations which uses layered sprites that switch between different images in real time.
+                <br>Oh yeah and each scene/character/song also have their own fucked up Act 2 version.
+                <br>Let's not forget that the actual game pulls a lot of funny stuff like glitchy camera visual effects or sprites doing creepy ass shit or weird animations that look uncanny or literally doxxing you or or or-
+                <br>That's the part that makes me want to KILL MYSELF. Dan Salvato is a smart man and knows his python shit, but me pea sized brain can barely understand a spreadsheet that was made to be simple.</p>
+                
+                <p>LUCKILY tutorials exist, which somehow led me to finding this <a href="https://youtu.be/AEdycbIxzK8?si=7qY7aI8vTjykjRrp">silly DDLC Mod where Natsuki teaches you how to make a DDLC Mod</a>. <b>What</b>.
+                <br>Like this stupid thing is literally what got me started. It's unironically good and simple to follow.
+                <br>It goes over the different Renpy versions that you can use to make your DDLC Mod, and how basic stuff like the sprites and dialogue box work (Attached screenshot unrelated)</p>
+                
+                <img src="identitycrisisclub/screenshot0004.png" width=1280 height=auto; />
+                
+                <p>It is quite limited tho, and sometimes it bugs out, like Monika would be covering up half your screen after a certain point, and it doesn't cover modern Renpy effects and shenanigans.
+                <br>Now, that doesn't mean that you have to figure out everything else on your own, luckily there's a <a href="https://docs.google.com/document/d/180D53wXv0Hytxafht1Phho1TA5TQJzzA4pWa8UF_LS0/edit?tab=t.0#heading=h.htdmgj1r8cfj">modding template</a> made by an amazing individual that goes by the name of Bronya Rand.
+                <br>You can check it out at the <a href="https://www.reddit.com/r/DDLCMods/wiki/index/">DDLCMods Subreddit thing</a> which has been incredibly fucking helpful when making my stupid mod, which I'll talk about in a bit.
+                <br>Them mfers have stuff like a custom posing tool that allows you to mix and match different eyes and mouths for each character, instead of being constricted to a limited set of static images.
+                <br>They've also made a lot of free to use custom fan made characters, like these two absolute menaces:</p>
+                
+                <img src="identitycrisisclub/screenshot0084.png"/>
+                
+                <p>They've also made a compilation of royalty free extra backgrounds in the style of DDLC that you can also use in your mod.
+                <br>They've also improved on Dan's DDLC code, making it easier to understand to us regular mortals (why is the DDLC code so over-engineered omg).
+                <br>They've also made cool stuff like an in-game OST player (which took me a hot minute to figure out how it works. I'm that retarded.)</p>
+                
+                <img src="identitycrisisclub/ost_player.png"/>
+                
+                <p>Oh yeah talking about DDLC OST CHECK OUT ME LATEST VIDEO WHERE I COVERED (ALMOST) ALL DDLC SONGS which I ended up adding to my mod.</p>
+                
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/29jhDJ45kig?si=iy0e-KDUeinYjxj_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                
+                <p>So yeah if you really want to make/play a good DDLC mod that doesn't suck I recommend checking out the subreddit.
+                <br>But you're not here for that, right? Bet I wasted your time with all that nerdy code stuff. Hah!
+                <br>Ok but fr now, the first time I tried modding this game was a bit of a trainwreck.</p>
+                <p>I just wanted to make a quick shitpost mod because I was quite curious as to how to make one.
+                <br>It was kinda fun so I started expanding the world a little bit, and by that I mean adding stuff from a completely different franchise:</p>
+                
+                <table>
+					<tr>
+                        <th><img src="identitycrisisclub/screenshot0002.png"/></th>
+                        <th><img src="identitycrisisclub/screenshot0008.png"/></th>
+                        <th><img src="identitycrisisclub/screenshot0009.png"/></th>
+                    </tr>
+				</table>      
+                
+                <p>I thought it would be a very funny and unique idea to mix in some Danganronpa gameplay to my mod, just for the fucks of it.
+                <br>It was giving me a lot of problems tho, stuff like the GUI would jump around and the size would be off and loading a save file would carry Junko's textbox to Natsuki's or some shit.
+                <br>And the fucking thing wasn't even that funny either, it was full of weird outdated jokes that didn't land well at all.
+                <br>Then my dumbass realized that using copyrighted material in a DDLC mod is <a href="https://teamsalvato.com/ip-guidelines">very illegal</a> (duh) so I deleted the weird shit and started writting an actual fucking plot.</p>
+                
+                <p>I wanted to make a mod everyone would be able to relate to, so I added a pronouns feature and an option to select if you wanted a male mc sprite or a female mc sprite.</p>
+                
+                <img src="identitycrisisclub/screenshot0006.png"/>
+                
+                <p>In theory it sounded like a good idea but in practice it was an actual mess. I didn't know how the code behind the pronouns feature worked, and dialogue would often times sound weird.
+                <br>And I'd honestly rather avoid political/controversial stuff in me mod. I want it to be enjoyable for everyone, no matter how you're built.
+                <br>A play tester suggested the idea of exploring MC's personality a little, so I ended up removing the pronouns feature and thinking about MC as his own character.
+                <br>Exploring MC's personality gives me the opportunity of making him either a genuinely caring individual, or an absolute fucking bitch ass jerk, depending on the player's actions.</p>
+                
+                <p>I also wanted to expand on the DDLC cast a little bit, so I ended up adding this "Libitina" girl that was supposed to be a fucking god, kinda like Monika or some shit.</p>
+                
+                <img src="identitycrisisclub/screenshot0035.png" width=1280 height=auto; />
+                
+                <p>Like she would be able to re-arrange MC's memories and make him allucinate weird shit, with the excuse that MC was just a schizophrenic fuck.
+                <br>Now, I'm not a writter, and to this day I have NO IDEA how I would've pulled that shit off.
+                <br>I thought about making her a yandere but honestly I fucking hate yanderes and I don't know how to write one either, so I ended scrapping her... for now.</p>
+                
+                <p>My writing fucking sucked and I didn't have any ideas for the fucking mod, so I ended up abandoning it for a couple months, ocasionaly working on it when I got a funny idea for the story.
+                <br>THAT WAS UNTIL MY FRIEND AUTUMN DECIDED THAT IT WOULD BE a great idea spending $11.76 dollars on a shit ass <a href="https://store.steampowered.com/app/3265330/Tsunagari_Chess_School/">DDLC/Mirai Nikki looking ass chess-club game.</a></p>
+                
+                <table>
+					<tr>
+                        <th><img src="identitycrisisclub/chessgame1.jpg"/></th>
+                        <th><img src="identitycrisisclub/chessgame2.jpg"/></th>
+                    </tr>
+				</table>   
+
+                <p>This motherfucking game gave me the inspiration to add a chess club to my shitty ass DDLC mod.
+                <br>I added a menu so that you could either join Sayori's literature club (morally correct option) or Chess club.</p>
+                
+                <th><img src="identitycrisisclub/chessclub.png"/></th>
+                
+                <p>Which also gave me a different idea. Instead of making cheery bubbly but nerdy girls for the chess club, why don't I make them absolute fucking assholes?
+                <br>I remember playing this horrible fucking game that goes by the name "Class of 09". Let me tell you, the main characters in that game are NOT well.
+                <br>This girl Nicole is a sociopath that will literally make the average nerdy pokemon/mario loving nerd turn into a SCHOOL shooter.
+                <br>And her friend Jecka isn't any better either. Basically they're both edgy fucked up girls. Which turned out to be a great inspiration for my new characters!!!
+                <br>...So I shamelessly ripped the Nicole and Jecka sprites and used them as placeholders for my shit ass mod until I found some actual fucking sprites I could freely use lmao</p>
+                
+                <table>
+					<tr>
+                        <th><img src="identitycrisisclub/screenshot0078.png"/></th>
+                        <th><img src="identitycrisisclub/screenshot0111.png"/></th>
+                    </tr>
+                    <tr>
+                        <th><img src="identitycrisisclub/screenshot0114.png"/></th>
+                        <th><img src="identitycrisisclub/hAHHAAHHAHHA.jpg"/></th>
+                    </tr>
+				</table>
+                
+                <p>I wanted to add a third male character, but he didn't really fit in with the girls and it would've also been more dialogue than necessary lol.
+                <br>The MC is also made to be shaped like the people he hangs out with. If he hangs out with Sayori he will turn into a loving and caring saint.
+                <br>If he hangs out with the chess girls, he will turn into an insufferable fucking asshole.
+                <br>Another thing I realized is that I didn't have to make the dokis a 100% carbon copy of how they are in the original game.
+                <br>Since the DDLC modding community is so massively big, I decided to take inspiration from some of the mods I played in the past.
+                <br>One of them serious mods being <a href="https://www.reddit.com/r/DDLCMods/comments/t5d9o7/doki_doki_exit_music_12_update/">Exit Music</a>, which is a Natsuki focused mod. The other one being <a href="https://www.reddit.com/r/DDLCMods/comments/eicd4m/doki_doki_fallen_angel_full_release_123119/">Fallen Angel</a>, which is Yuri focused.
+                <br>Both of them mods made me feel like SHIT by the end. 10/10 would recommend.
+                <br>Oh yeah there's also them shitpost mods like <a href="https://www.reddit.com/r/DDLCMods/comments/dffzqj/i_made_a_thing_i_hate_it/">DDLC Abridged</a>, which I pulled some inspiration from, and <a href="https://www.reddit.com/r/DDLCMods/comments/vq7cb0/roady_roady_road_trip_full_release/">Roady Roady Road Trip</a>, which is fucking peak.</p>
+                
+                <table>
+					<tr>
+                        <th><img src="identitycrisisclub/screenshot0042.png" width=1280 height=auto; /></th>
+                        <th><img src="identitycrisisclub/screenshot0113.png"/></th>
+                    </tr>
+				</table>
+                
+                <p>(hit the like button if you got any of those references)</p>
+                
+                <p>I also got ideas like the story being very interactive, you could chose to write a poem, or not write a poem.
+                <br>You could chose to hang out with Sayori, or be a lazy fuck all day and play all your fucking games.
+                <br>You could talk back to the characters by clicking some parts of their dialogue, or you could ignore them.
+                <br>Each character has an internal "NOTICE ME" point system, which goes up or down depending on your actions, which can change the story and MC as a character.
+                <br>WHICH MEANS THERE'S A LOT OF PLAY TESTING INVOLVED. Oops! All Sayori</p>
+                
+                <table>
+					<tr>
+                        <th><img src="identitycrisisclub/allsayori.png"/></th>
+                        <th><img src="identitycrisisclub/allsayori2.png"/></th>
+                    </tr>
+				</table>
+                
+                <p>But yeah I don't want to spoil too much because
+                <br>1. I barely have a story and everything I've shown here is like half the game already lmao
+                <br>2. I don't even know if this will ever get finished considering I drop stuff very often and get tired really easily.</p>
+                <p>I may release a playable demo some day, after cleaning up a ton of unused shit and finish writting the damn Act 1's plot.
+                <br>SO YEAH THATS ABOUT IT !!!! sorey for not updating my blog in like 3 years I was feeling lazy.
+                <br>ok bya</p>
+                
+                <img src="identitycrisisclub/screenshot0029.png"/>
+                
+			<div class="animated_rainbow_3"><a href="../blog">go back i hate this</a></div>
+		</div>
+	</body>
+</html>
