@@ -1,0 +1,60 @@
+div {position: relative; text-align: center; color:white; display: flex; justify-content: center;}
+
+img {display: block; margin-left: auto; margin-right: auto; max-width: 90%; max-height: 90%}
+
+body {background-image: url("./menu_bg.png"); background-attachment: fixed; background-size: 10% auto; animation: marquee 30s infinite linear; font-size: 30px; text-align: center; color:white; font-family: RifficFree-Bold; text-shadow: 0px 0px 3px #BB5588, 0px 0px 3px #BB5588, 0px 0px 3px #BB5588, 0px 0px 3px #BB5588, 0px 0px 3px #BB5588, 0px 0px 3px #BB5588; -webkit-text-stroke: 1px #bb5588; padding: 10px 10%}
+
+.click-zoom input[type=checkbox] {
+  display: none
+}
+
+.click-zoom img {  
+  transition: transform 0.25s ease;
+  cursor: zoom-in
+}
+
+.click-zoom input[type=checkbox]:checked~img {
+  /* how to modify this to use exact image width instead of scaling?*/
+  transform:  scale(2);
+  cursor: zoom-out
+}
+
+.bold {font-weight: bold;}
+.spoiler {color:black; background-color:black;}
+.spoiler:hover {color: white;}
+hr.rounded {border-top: 5px solid #000000; border-radius: 5px;}
+.shadow-thingy {box-shadow: 0px 0px 20px 10px black;}
+
+a:link {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: cyan;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: pink;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+@keyframes marquee {
+  0% {
+    background-position: 0;
+  }
+
+  100% {
+    background-position: -1190px -1190px;
+  }
+}
